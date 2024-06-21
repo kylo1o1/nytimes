@@ -1,0 +1,36 @@
+.out-wrap-div{
+    margin: 0px 35px;
+}
+.d-flex{
+    display: flex;
+}
+.just-cont{
+    justify-content: space-between;
+}
+#search-icon{
+    width: 20px;
+}
+.ul-lang-nav{
+    list-style: none;
+}
+body{
+    background-color: rgb(244, 247, 250);
+}
+.ul-lang-nav li{
+    display: inline-block;   
+  
+
+}
+.ul-lang-nav > li >a{
+    text-decoration: none;
+    color: gray;
+}
+.header-col-3 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(50, 104, 145);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 10px;
+}
