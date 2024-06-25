@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 .out-wrap-div{
     margin: 0px 35px;
 }
@@ -9,28 +12,128 @@
 }
 #search-icon{
     width: 20px;
+    padding: 10px;
+}
+#search-icon-outer{
+    width: 40px;
+    margin-bottom: 10px;
+}
+#search-icon-outer:hover{
+    background-color: rgb(247, 247, 247);
 }
 .ul-lang-nav{
     list-style: none;
 }
-body{
-    background-color: rgb(244, 247, 250);
-}
+
 .ul-lang-nav li{
     display: inline-block;   
-  
+    padding: 10px;
+
+}
+.ul-lang-nav li:hover{
+    background-color: rgb(247, 247, 247);
+
 
 }
 .ul-lang-nav > li >a{
     text-decoration: none;
     color: gray;
+
 }
-.header-col-3 a{
+.ul-lang-nav > li > a:hover {
+    color: black;
+}
+.date{
+    text-decoration: none;
+    color: black;
+}
+.date:hover{
+    color:#666;;
+}
+.header-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.header-3-buttons a{
     text-decoration: none;
     color: white;
-    background-color: rgb(50, 104, 145);
+    background-color: rgb(86, 123, 149);
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin: 10px;
+    margin-left: 7px;
+    border-radius: 2px;
+}
+.header-3-buttons :hover{
+    background-color: rgb(50, 104, 145);
+}
+.header-3-stock{
+    display: flex;
+    
+    height: 20px;
+    align-self: flex-end;
+}
+.header-3-stock div{
+    margin-left: 7PX;
+    color: rgb(130, 213, 130);
+}
+iframe {
+    width: 500px;
+    height: 300px;
+    
+}
+.header-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-2-nytimes{
+    width: 474px;
+}
+.header-row-2 {
+        border-bottom:  1px solid black;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+}
+.header-row-2 ul{
+    text-align: center;
+    margin-bottom: 7px;
+   
+    justify-content: center;
+}
+.header-row-2 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    align-content: flex-end;
+    
+
+}
+.header-row-2 ul li a{
+    text-decoration: none;
+    color:black;
+    
+    margin-right: 0px;
+    padding-right: 6px;
+}
+
+.header-row-2 ul li a:hover{
+    text-decoration: 3px underline black;
+
+}
+.header-row-2 ul li svg{
+    align-self: center;
+    width: 8px;
+}
+.content{
+    border-top: 1px solid black;
+    margin-top: 2px;
 }
